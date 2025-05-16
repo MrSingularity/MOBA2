@@ -1,4 +1,4 @@
-import TrafficLight from '../components/TrafficLight'
+import TrafficLight from '../components/TrafficLight.jsx'
 
 function TrafficLightPage() {
     return (

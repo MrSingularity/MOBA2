@@ -4,24 +4,25 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './index.css';
 import App from './pages/App.jsx';
 import TrafficLightPage from './pages/TrafficLightPage.jsx';
+import IonicTestPage from './pages/IonicTestPage';
+
 
 function Navigation() {
     return (
         <nav>
-            <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/app">Vite React App</Link></li>
-                <li><Link to="/traffic-light">Traffic Light</Link></li>
-            </ul>
+            <Link to="/">Home</Link><br />
+            <Link to="/app">Vite React App</Link><br />
+            <Link to="/traffic-light">Traffic Light (2)</Link><br />
+            <Link to="/ionic">Ionic Test Page (3)</Link><br />
         </nav>
     );
 }
+
 
 function Home() {
     return (
         <>
             <Navigation />
-            <h1>Startseite</h1>
         </>
     );
 }
@@ -33,6 +34,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <Route path="/" element={<Home />} />
             <Route path="/app" element={<App />} />
             <Route path="/traffic-light" element={<TrafficLightPage />} />
+            <Route path="/ionic" element={<IonicTestPage />} />
         </Routes>
     </Router>
 );

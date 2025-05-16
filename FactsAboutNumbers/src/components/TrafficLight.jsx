@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import Light from './Light'
+import Light from './Light.jsx'
 
 const TrafficLight = () => {
     const [step, setStep] = useState(0)
