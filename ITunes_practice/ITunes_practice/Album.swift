@@ -5,8 +5,9 @@ struct AlbumResponse: Codable {
 }
 
 struct Album: Codable, Identifiable {
+    let collectionId: Int
     let collectionName: String
     let artworkUrl60: String
 
-    var id: String { collectionName + artworkUrl60 }
+    var id: Int { collectionId }
 }

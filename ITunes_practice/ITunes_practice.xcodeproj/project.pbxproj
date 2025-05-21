@@ -7,22 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8445B30A2DDE2AD90009681B /* practice7App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8445B3092DDE2AD90009681B /* practice7App.swift */; };
-		8445B30C2DDE2AD90009681B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8445B30B2DDE2AD90009681B /* ContentView.swift */; };
-		8445B30E2DDE2AF00009681B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8445B30D2DDE2AF00009681B /* Assets.xcassets */; };
-		8445B3112DDE2AF00009681B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8445B3102DDE2AF00009681B /* Preview Assets.xcassets */; };
+		8445B3602DDE68D00009681B /* ITunes_practiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8445B35F2DDE68D00009681B /* ITunes_practiceApp.swift */; };
+		8445B3622DDE68D00009681B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8445B3612DDE68D00009681B /* ContentView.swift */; };
+		8445B3642DDE68D20009681B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8445B3632DDE68D20009681B /* Assets.xcassets */; };
+		8445B3672DDE68D20009681B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8445B3662DDE68D20009681B /* Preview Assets.xcassets */; };
+		8445B36E2DDE68FB0009681B /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8445B36D2DDE68FB0009681B /* Album.swift */; };
+		8445B3702DDE69F30009681B /* stones.json in Resources */ = {isa = PBXBuildFile; fileRef = 8445B36F2DDE69F30009681B /* stones.json */; };
+		8445B3722DDE6C970009681B /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8445B3712DDE6C970009681B /* Song.swift */; };
+		8445B3742DDE6CCB0009681B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8445B3732DDE6CCB0009681B /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8445B3062DDE2AD90009681B /* practice7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practice7.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8445B3092DDE2AD90009681B /* practice7App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practice7App.swift; sourceTree = "<group>"; };
-		8445B30B2DDE2AD90009681B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8445B30D2DDE2AF00009681B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8445B3102DDE2AF00009681B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8445B35C2DDE68D00009681B /* ITunes_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITunes_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8445B35F2DDE68D00009681B /* ITunes_practiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunes_practiceApp.swift; sourceTree = "<group>"; };
+		8445B3612DDE68D00009681B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8445B3632DDE68D20009681B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8445B3662DDE68D20009681B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8445B36D2DDE68FB0009681B /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		8445B36F2DDE69F30009681B /* stones.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stones.json; sourceTree = SOURCE_ROOT; };
+		8445B3712DDE6C970009681B /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		8445B3732DDE6CCB0009681B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8445B3032DDE2AD90009681B /* Frameworks */ = {
+		8445B3592DDE68D00009681B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +40,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8445B2FD2DDE2AD90009681B = {
+		8445B3532DDE68D00009681B = {
 			isa = PBXGroup;
 			children = (
-				8445B3082DDE2AD90009681B /* practice7 */,
-				8445B3072DDE2AD90009681B /* Products */,
+				8445B35E2DDE68D00009681B /* ITunes_practice */,
+				8445B35D2DDE68D00009681B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8445B3072DDE2AD90009681B /* Products */ = {
+		8445B35D2DDE68D00009681B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8445B3062DDE2AD90009681B /* practice7.app */,
+				8445B35C2DDE68D00009681B /* ITunes_practice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8445B3082DDE2AD90009681B /* practice7 */ = {
+		8445B35E2DDE68D00009681B /* ITunes_practice */ = {
 			isa = PBXGroup;
 			children = (
-				8445B3092DDE2AD90009681B /* practice7App.swift */,
-				8445B30B2DDE2AD90009681B /* ContentView.swift */,
-				8445B30D2DDE2AF00009681B /* Assets.xcassets */,
-				8445B30F2DDE2AF00009681B /* Preview Content */,
+				8445B36F2DDE69F30009681B /* stones.json */,
+				8445B35F2DDE68D00009681B /* ITunes_practiceApp.swift */,
+				8445B3612DDE68D00009681B /* ContentView.swift */,
+				8445B36D2DDE68FB0009681B /* Album.swift */,
+				8445B3712DDE6C970009681B /* Song.swift */,
+				8445B3732DDE6CCB0009681B /* DetailView.swift */,
+				8445B3632DDE68D20009681B /* Assets.xcassets */,
+				8445B3652DDE68D20009681B /* Preview Content */,
 			);
-			path = practice7;
+			path = ITunes_practice;
 			sourceTree = "<group>";
 		};
-		8445B30F2DDE2AF00009681B /* Preview Content */ = {
+		8445B3652DDE68D20009681B /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				8445B3102DDE2AF00009681B /* Preview Assets.xcassets */,
+				8445B3662DDE68D20009681B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +82,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8445B3052DDE2AD90009681B /* practice7 */ = {
+		8445B35B2DDE68D00009681B /* ITunes_practice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8445B3142DDE2AF00009681B /* Build configuration list for PBXNativeTarget "practice7" */;
+			buildConfigurationList = 8445B36A2DDE68D20009681B /* Build configuration list for PBXNativeTarget "ITunes_practice" */;
 			buildPhases = (
-				8445B3022DDE2AD90009681B /* Sources */,
-				8445B3032DDE2AD90009681B /* Frameworks */,
-				8445B3042DDE2AD90009681B /* Resources */,
+				8445B3582DDE68D00009681B /* Sources */,
+				8445B3592DDE68D00009681B /* Frameworks */,
+				8445B35A2DDE68D00009681B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = practice7;
-			productName = practice7;
-			productReference = 8445B3062DDE2AD90009681B /* practice7.app */;
+			name = ITunes_practice;
+			productName = ITunes_practice;
+			productReference = 8445B35C2DDE68D00009681B /* ITunes_practice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8445B2FE2DDE2AD90009681B /* Project object */ = {
+		8445B3542DDE68D00009681B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					8445B3052DDE2AD90009681B = {
+					8445B35B2DDE68D00009681B = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 8445B3012DDE2AD90009681B /* Build configuration list for PBXProject "practice7" */;
+			buildConfigurationList = 8445B3572DDE68D00009681B /* Build configuration list for PBXProject "ITunes_practice" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +122,46 @@
 				en,
 				Base,
 			);
-			mainGroup = 8445B2FD2DDE2AD90009681B;
-			productRefGroup = 8445B3072DDE2AD90009681B /* Products */;
+			mainGroup = 8445B3532DDE68D00009681B;
+			productRefGroup = 8445B35D2DDE68D00009681B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8445B3052DDE2AD90009681B /* practice7 */,
+				8445B35B2DDE68D00009681B /* ITunes_practice */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8445B3042DDE2AD90009681B /* Resources */ = {
+		8445B35A2DDE68D00009681B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8445B3112DDE2AF00009681B /* Preview Assets.xcassets in Resources */,
-				8445B30E2DDE2AF00009681B /* Assets.xcassets in Resources */,
+				8445B3672DDE68D20009681B /* Preview Assets.xcassets in Resources */,
+				8445B3702DDE69F30009681B /* stones.json in Resources */,
+				8445B3642DDE68D20009681B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8445B3022DDE2AD90009681B /* Sources */ = {
+		8445B3582DDE68D00009681B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8445B30C2DDE2AD90009681B /* ContentView.swift in Sources */,
-				8445B30A2DDE2AD90009681B /* practice7App.swift in Sources */,
+				8445B3722DDE6C970009681B /* Song.swift in Sources */,
+				8445B3622DDE68D00009681B /* ContentView.swift in Sources */,
+				8445B3602DDE68D00009681B /* ITunes_practiceApp.swift in Sources */,
+				8445B3742DDE6CCB0009681B /* DetailView.swift in Sources */,
+				8445B36E2DDE68FB0009681B /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8445B3122DDE2AF00009681B /* Debug */ = {
+		8445B3682DDE68D20009681B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +221,7 @@
 			};
 			name = Debug;
 		};
-		8445B3132DDE2AF00009681B /* Release */ = {
+		8445B3692DDE68D20009681B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,14 +275,14 @@
 			};
 			name = Release;
 		};
-		8445B3152DDE2AF00009681B /* Debug */ = {
+		8445B36B2DDE68D20009681B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"practice7/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ITunes_practice/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -279,7 +295,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = buechth1.practice7;
+				PRODUCT_BUNDLE_IDENTIFIER = "buechth1.ITunes-practice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -287,14 +303,14 @@
 			};
 			name = Debug;
 		};
-		8445B3162DDE2AF00009681B /* Release */ = {
+		8445B36C2DDE68D20009681B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"practice7/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ITunes_practice/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -307,7 +323,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = buechth1.practice7;
+				PRODUCT_BUNDLE_IDENTIFIER = "buechth1.ITunes-practice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -318,25 +334,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8445B3012DDE2AD90009681B /* Build configuration list for PBXProject "practice7" */ = {
+		8445B3572DDE68D00009681B /* Build configuration list for PBXProject "ITunes_practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8445B3122DDE2AF00009681B /* Debug */,
-				8445B3132DDE2AF00009681B /* Release */,
+				8445B3682DDE68D20009681B /* Debug */,
+				8445B3692DDE68D20009681B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8445B3142DDE2AF00009681B /* Build configuration list for PBXNativeTarget "practice7" */ = {
+		8445B36A2DDE68D20009681B /* Build configuration list for PBXNativeTarget "ITunes_practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8445B3152DDE2AF00009681B /* Debug */,
-				8445B3162DDE2AF00009681B /* Release */,
+				8445B36B2DDE68D20009681B /* Debug */,
+				8445B36C2DDE68D20009681B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8445B2FE2DDE2AD90009681B /* Project object */;
+	rootObject = 8445B3542DDE68D00009681B /* Project object */;
 }
